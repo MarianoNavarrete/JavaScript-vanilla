@@ -1,5 +1,5 @@
 const API = 'https://rickandmortyapi.com/api/character/';
-
+/* ingresando la api */
 const getData = async(id) => {
     const apiURL  = id ? `${API}${id}` : API;
     try {
